@@ -22,7 +22,7 @@ columns = [
 
 print("⏳ Step 1: Loading the Dataset...")
 # Read the CSV file
-df = pd.read_csv("KDDTrain+.txt", header=None, names=columns)
+df = pd.read_csv("train_data.csv", header=None, names=columns)
 
 print(f"   - Loaded {len(df)} rows of network traffic data.")
 
